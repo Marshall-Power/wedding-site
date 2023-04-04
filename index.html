@@ -30,9 +30,9 @@
             // create new link tag
             const link = document.createElement('link');
             if (css === 'animate.css') {
-                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
             } else if (css === 'font-awesome.css') {
-                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css';
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
             }
             link.rel = 'stylesheet';
 
@@ -45,7 +45,7 @@
             if (js === 'waypoints.js') {
                 document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
             } else if (js === 'jquery.js') {
-                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"><\/script>');
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
             }
         }
     </script>
@@ -363,18 +363,18 @@
 
 <section id="video-bg" class="hidden-sm hidden-xs">
     <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://www.youtube.com/watch?v=zL_gsQ6YsBo',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+         data-property="{videoURL:'https://youtu.be/9giqL1H6yRs',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
     </div>
     <div id="video-content">
-        <h5>Girona</h5>
-        <p>M'enamora!</p>
+        <h5>Kolkata</h5>
+        <p>City of joy</p>
     </div>
 </section>
 
 <section id="map" class="section-padding">
     <div class="text-center">
-        <h3>Com arribo?</h3>
-        <p>És més fácil del que sembla!</p>
+        <h3>How do I get there?</h3>
+        <p>It's way easier than you think!</p>
     </div>
     <div id="map-canvas"></div>
     <div id="map-content-wrapper" class="container pointer-events-none">
@@ -388,22 +388,21 @@
                 <div id="map-content" class="pointer-events-auto">
                     <div class="row">
                         <div class="col-md-6">
-                            <h5>El Cortal Gran</h5>
-                            <p>Carretera Sant Martí d’Empúries,
-                                17470 Sant Pere Pescador, Girona</p>
+                            <h5>ITC Fortune Park</h5>
+                            <p>Kona Expressway, Howrah, West Bengal 711403, India</p>
                         </div>
                         <div class="col-md-6">
-                            <h5>Marcel Planas / Anna Rossell</h5>
-                            <p><i class="fa fa-mobile"></i> <a href="tel://+919412345678">653212381</a><br>
-                                <i class="fa fa-mobile"></i> <a href="tel://+917123456789">653212381</a></p>
+                            <h5>Mr. Amit Roy</h5>
+                            <p><i class="fa fa-mobile"></i> <a href="tel://+919412345678">+91 9412345678</a><br>
+                                <i class="fa fa-mobile"></i> <a href="tel://+917123456789">+91 7123456789</a></p>
                         </div>
                     </div>
                     <div class="row text-center">
-                        <!-- <div class="col-md-6" style="padding: 5px;">
+                        <div class="col-md-6" style="padding: 5px;">
                             <a class="btn btn-fill btn-small"
                                href="https://m.uber.com/ul/?action=setPickup&client_id=Yh7Dl6SjB56RY2JuuZF8ttVa6ryFV78W&pickup=my_location&dropoff[formatted_address]=Fortune%20Park%20Panchwati%20-%20Hotels%20in%20Kolkata%2C%20Howrah%2C%20West%20Bengal%2C%20India&dropoff[latitude]=22.593276&dropoff[longitude]=88.270277"><i
                                     class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
-                        </div> -->
+                        </div>
                         <div class="col-md-6" style="padding: 5px;">
                             <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
                                 map</a>
@@ -424,8 +423,8 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                     <div class="section-padding">
-                        <h3>Moltes gracies!</h3>
-                        <p>Estem encantats que ens acompanyeu en aquest gran dia.</p>
+                        <h3>Thank you!</h3>
+                        <p>We are glad to see you join us on our big day.</p>
                         <div id="add-to-cal"></div>
                     </div>
                 </div>
@@ -436,9 +435,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <h3>A qué esperes!?</h3>
-                <p>Agraíriem que ens confirmessiu la vostre assistencia abans del 18 de Juliol</p>
-                <form id="rsvp-form" class="rsvp-form" action="https://fabform.io/f/1jczUYL" method="post">
+                <h3>What are you waiting for?</h3>
+                <p>We would greatly appreciate if you could RSVP before 1st of November '17</p>
+                <form id="rsvp-form" class="rsvp-form" action="" method="POST">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
@@ -457,22 +456,21 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-users"></i>
-                                <input type="number" name="extras" class="" min="0" max="4" placeholder="Acompanyants" required>
+                                <input type="number" name="extras" class="" min="0" max="4" placeholder="Husband/Wife or kids" required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i>
-                                <input name="comentaris" class="" placeholder="comentari" required>
+                                <i class="fa fa-key"></i>
+                                <input type="number" name="invite_code" id="invite_code" class="" min="0" placeholder="Invite code" required>
                             </div>
                         </div>
                     </div>
-                    
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
                     <button class="btn-fill rsvp-btn">
-                       Enviar!
+                        Yes, that's me!
                     </button>
                 </form>
             </div>
@@ -485,7 +483,7 @@
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                <p>Creat per en Marcel amb molt d'amor <span class="fa fa-heart pulse2"></span> per l'Anna</p>
+                <p>Crafted by Ram with lots of <span class="fa fa-heart pulse2"></span> for Antara</p>
             </div>
         </div>
     </div>
