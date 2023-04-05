@@ -758,6 +758,12 @@ Google map
 #map-canvas {
   height: 500px;
   width: 100%;
+  background: url('../img/mapa_cortal_gran.PNG') center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
 }
 #map-content-wrapper {
   position: relative;
