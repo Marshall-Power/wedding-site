@@ -244,6 +244,7 @@ function openMaps(){
     let map = document.getElementById('#map-canvas')
     map.addEventListener('click', mapNavigate() )
 }
+openMaps()
 
 /********************** Extras **********************/
 
