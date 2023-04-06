@@ -751,6 +751,11 @@ Embed video
 #video-content p {
   color: #ffffff;
 }
+#mapa-cortal {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 
 /* ==========================================================================
 Google map
