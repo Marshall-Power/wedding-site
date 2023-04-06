@@ -236,12 +236,11 @@ $(document).ready(function () {
 
 
 /********************** Bad partices **********************/
-function openMaps(){
-    const mapImg = document.getElementById('map-canvas')
-    console.log('Map:', map)
-    mapImg.addEventListener('click', window.open('https://goo.gl/maps/dbbyNbMbs42X6Ksd9'))
-}
-openMaps()
+$(function(){
+    $("#div").bind("click", function (event) {
+        window.open('https://goo.gl/maps/dbbyNbMbs42X6Ksd9')
+    });
+  });
 
 /********************** Extras **********************/
 
