@@ -237,9 +237,9 @@ $(document).ready(function () {
 
 /********************** Bad partices **********************/
 function openMaps(){
-    let map = document.getElementById('map-canvas')
+    const mapImg = document.getElementById('map-canvas')
     console.log('Map:', map)
-    map.addEventListener('click', window.open('https://goo.gl/maps/dbbyNbMbs42X6Ksd9'))
+    mapImg.addEventListener('click', window.open('https://goo.gl/maps/dbbyNbMbs42X6Ksd9'))
 }
 openMaps()
 
