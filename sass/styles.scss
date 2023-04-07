@@ -669,8 +669,14 @@ Gift
   padding-bottom: 30px
 }
 
-.gift-container p {
+.gift-container h4 {
   text-align: center;
+}
+
+.iban-img {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
 }
 
 /* ==========================================================================
