@@ -258,7 +258,7 @@ Hero
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-
+  &
   /*.rsvp-btn {
     position: absolute;
     bottom: 100px;
@@ -283,6 +283,12 @@ Hero
   .hero-content img {
     width: 55%;
     margin-bottom: 12%;
+  }
+}
+@media (max-width: 991px) {
+  .hero {
+    background: url(../img/hero-mobile.jpg) center center;
+    background-size: cover;
   }
 }
 .dimmer{
