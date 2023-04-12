@@ -184,23 +184,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Casament Marcel & Anna",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('August 27, 2023 17:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('August 28, 2023 03:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Cortal Gran, Sant Pere Pescador',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "T'estem esperant! Per cualsevol dubte contacta a un dels dos nuvis"
         }
     });
 
@@ -215,7 +215,7 @@ $(document).ready(function () {
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
         
-            $.post('https://fabform.io/f/PmWXRfu', data)
+            $.post('https://formsubmit.co/annarossellpujol@gmail.com', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
