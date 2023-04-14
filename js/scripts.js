@@ -215,7 +215,7 @@ $(document).ready(function () {
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
         
-            $.post('https://formsubmit.co/f1f363776d3a3a9bfe562909ce0081d5', data)
+            $.post('https://fabform.io/f/PmWXRfu', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
